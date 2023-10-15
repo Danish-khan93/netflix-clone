@@ -1,9 +1,9 @@
-import { MovieBanner, MoviesRow, Nav } from "../component";
+import { MovieBanner, MoviesRow } from "../component";
 import requests from "../apiAxios/Requst";
 const HomeScreen = () => {
   return (
     <div>
-      <Nav />
+   
       <MovieBanner />
       <MoviesRow title="Netflix Original" fetchUrl={requests.fetchNetflixOrignals} />
       <MoviesRow title="Top Rated" fetchUrl={requests.fetchTopRated} />

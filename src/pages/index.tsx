@@ -1,4 +1,4 @@
 import HomeScreen from "./HomeScreen";
-
-
-export {HomeScreen} 
+import Layout from "./Layout"
+import MainHome from "./MainHome";
+export {HomeScreen,Layout,MainHome} 
